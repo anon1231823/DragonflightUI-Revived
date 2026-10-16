@@ -632,6 +632,8 @@ function DFProfessionMixin:SetupTabs()
                 local locale = GetLocale()
                 if DF.API.Version.IsClassic and locale == "esES" then
                     spellToCast = "Fundiendo"
+                elseif DF.API.Version.IsClassic and locale == "esES"
+                    spellToCast = "Fundir"
                 else 
                     spellToCast = "Fundición"
                 end
